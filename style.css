@@ -1,0 +1,126 @@
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&family=Kumbh+Sans:wght@400;700&family=Open+Sans:wght@400;600;700&family=Overpass:wght@400;700&family=Poppins:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #131518;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first_cont, .second_cont {
+  width: 327px;
+  height: 360px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 15px;
+  padding: 24px;
+
+}
+
+.icon_cont{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #262e38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first_cont > h1{
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 24px;
+}
+.first_cont > p{
+    font-family:"Overpass";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #969fad;
+    margin-top: 24px;
+}
+.button_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+#button{
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    color:#7c8798;
+    background: #262e38;
+}
+#button:hover{
+    background:#7c8798;
+    color: #ffffff;
+}
+#button:focus{
+    background:#fc7614;
+    color: #ffffff;
+}
+.submit{
+    width: 100%;
+    height: 5.5vh;
+    border: none;
+    background: #fc7614;
+    border-radius: 22.5px;
+    cursor: pointer;
+    margin-top: 24px;
+    color: #ffffff;
+}
+.second_cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: none;
+}
+.rating_cont{
+    background: #262e38;
+    border-radius: 22.5px;
+    width: 168px;
+    height: 32px;
+    line-height: 32px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    color: #fc7614;
+    margin-top: 20px;
+}
+.second_cont > h1{
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.second_cont > p{
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #969fad;
+    margin-top: 20px;
+}
